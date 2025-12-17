@@ -1,0 +1,37 @@
+{
+    "PurchaseOrder": {
+        "PO_ID": ["po id", "poid", "purchaseorderid", "purchase_order_id", "purchase order id", "po_no", "po number"],
+        "Supplier_ID": ["supplier id", "supplierid", "vendor id", "vendorid", "supp_id", "suppid"],
+        "PO_Date": ["po date", "order date", "purchasedate", "purchase_date", "date"],
+        "Handled_By": ["handled by", "buyer", "created by", "requested by", "prepared by", "requestor", "staff"],
+        "TotalAmount": ["total amount", "total_amount", "po amount", "amount", "total", "grand total", "net amount"],
+        "Status": ["status", "po status", "approval status", "doc status"],
+        "ExpectedDeliveryDate": ["expected delivery date", "expected date", "delivery date", "expected_delivery_date", "eta"]
+    },
+    "GRN": {
+        "GRN_No": ["grn no", "grn number", "grn", "goods received note", "goodsreceivednote", "grn_id"],
+        "Qty_Received": ["qty received", "quantity received", "received qty", "qty_received", "received quantity"],
+        "Date_Arrived": ["date arrived", "arrival date", "received date", "date_received", "grn date"],
+        "Status_Arrived": ["status arrived", "delivery status", "receipt status", "grn status", "status_received"],
+        "Quantity_Defect": ["quantity defect", "defect qty", "defective qty", "qty_defect", "defects"]
+    },
+    "Invoices": {
+        "InvoiceID": ["invoice id", "invoiceid", "inv_id", "invoice no", "invoice number"],
+        "Supp_ID": ["supp_id", "supplier id", "supplier_id", "vendor id", "vendorid", "suppid"],
+        "Amount": ["amount", "invoice amount", "total", "total amount", "inv amount"],
+        "Payment_Status": ["payment status", "pay status", "paid status", "settlement status"]
+    },
+    "Item": {
+        "ItemID": ["item id", "itemid", "product id", "productid", "sku", "item code", "item_no"],
+        "SuppID": ["suppid", "supplier id", "supplier_id", "supp_id", "vendor id", "vendorid"],
+        "CategoryName": ["category", "category name", "item category", "product category"]
+    },
+    "Suppliers": {
+        "SuppName": ["supplier name", "suppname", "vendor name", "vendorname", "name"],
+        "Country": ["country", "supplier country", "vendor country", "nation"]
+    },
+    "PurchaseOrderLine": {
+        "POL_ID": ["pol id", "polid", "po line id", "line id", "line_no", "line number"],
+        "Item_ID": ["item_id", "item id", "itemid", "product id", "productid", "sku"]
+    }
+}
